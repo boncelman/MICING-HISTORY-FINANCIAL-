@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MICING HISTORY FINANCIAL</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #0f0f0f;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      background: #1a1a1a;
+      padding: 15px 20px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px #00ffff44;
+      flex-direction: row;
+    }
+
+    .container img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid #00ffff;
+    }
+
+    .neon-button {
+      background: linear-gradient(90deg, #00f0ff, #0078ff);
+      color: white;
+      padding: 12px 20px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #00f0ff, 0 0 20px #0078ff;
+      transition: 0.3s ease;
+    }
+
+    .neon-button:hover {
+      box-shadow: 0 0 20px #00f0ff, 0 0 40px #0078ff;
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .container img {
+        width: 80px;
+        height: 80px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Gambar grup crypto kamu -->
+    <img src="boncel.jpg" alt="Logo Crypto">
+
+    <!-- Tombol menuju link crypto kamu -->
+    <a href="https://chat.whatsapp.com/DAw2kQygh6E7yKXc1SIifx?mode=ac_t" class="neon-button" target="_blank">Crypto Micro Analysis</a>
+  </div>
+</body>
+</html>
